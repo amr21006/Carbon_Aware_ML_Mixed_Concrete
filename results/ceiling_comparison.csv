@@ -1,0 +1,16 @@
+split,review_fraction,prevalence,ceiling_capture,model_capture,share_of_ceiling_realized
+group_company,0.05,0.115,0.4347,0.4159,0.9567
+group_company,0.1,0.115,0.8695,0.6991,0.8041
+group_company,0.2,0.115,1.0,0.8717,0.8717
+group_company,0.3,0.115,1.0,0.9619,0.9619
+group_company,0.5,0.115,1.0,0.9876,0.9876
+group_epd_source,0.05,0.1091,0.4583,0.4208,0.9182
+group_epd_source,0.1,0.1091,0.9166,0.6994,0.763
+group_epd_source,0.2,0.1091,1.0,0.8938,0.8938
+group_epd_source,0.3,0.1091,1.0,0.9579,0.9579
+group_epd_source,0.5,0.1091,1.0,0.994,0.994
+temporal_latest20,0.05,0.0843,0.5929,0.5271,0.889
+temporal_latest20,0.1,0.0843,1.0,0.7857,0.7857
+temporal_latest20,0.2,0.0843,1.0,0.9409,0.9409
+temporal_latest20,0.3,0.0843,1.0,0.968,0.968
+temporal_latest20,0.5,0.0843,1.0,0.9951,0.9951

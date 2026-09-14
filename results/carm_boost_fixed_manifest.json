@@ -1,0 +1,28 @@
+{
+  "created_utc": "2026-07-02T21:24:39.061410+00:00",
+  "runtime_seconds": 65.935,
+  "algorithm": "CARM-Boost fixed single model",
+  "not_an_ensemble_of_algorithms": true,
+  "description": "Single cost-sensitive XGBoost classifier with carbon-procurement domain features and a fixed domain-tuned configuration.",
+  "target": "top decile of A1-A3 GWP per ksi of compressive strength",
+  "target_quantile": 0.9,
+  "splits": [
+    "group_company",
+    "temporal_latest20"
+  ],
+  "candidate": {
+    "name": "CARM_Boost_fixed_domain_10k",
+    "max_features": 10000,
+    "min_df": 3,
+    "ngram_max": 2,
+    "n_estimators": 450,
+    "max_depth": 5,
+    "learning_rate": 0.032,
+    "min_child_weight": 1.0,
+    "subsample": 0.9,
+    "colsample_bytree": 0.88,
+    "reg_alpha": 0.0,
+    "reg_lambda": 1.5,
+    "gamma": 0.0
+  }
+}

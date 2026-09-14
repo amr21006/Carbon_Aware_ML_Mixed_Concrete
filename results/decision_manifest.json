@@ -1,0 +1,36 @@
+{
+  "analysis": "JCCE revision decision-analytic batch",
+  "bootstrap_repeats": 1000,
+  "review_fractions": [
+    0.1,
+    0.2
+  ],
+  "tasks_completed": [
+    "clustered_ci",
+    "decision_curve",
+    "heuristics",
+    "within_class"
+  ],
+  "predictions_source": "results/rev_acrm_predictions_enriched.csv",
+  "created_utc": "2026-09-12T14:02:26.001258+00:00",
+  "acrm_parameters": {
+    "splits": "group_company,group_epd_source,temporal_latest20",
+    "learner": "lgbm",
+    "n_estimators": 650,
+    "max_depth": -1,
+    "num_leaves": 63,
+    "min_child_samples": 20,
+    "learning_rate": 0.028,
+    "min_child_weight": 2.0,
+    "subsample": 0.9,
+    "colsample_bytree": 0.86,
+    "reg_alpha": 0.05,
+    "reg_lambda": 2.0,
+    "gamma": 0.02,
+    "max_text_features": 14000,
+    "prior_smoothing": 40.0,
+    "prior_folds": 5,
+    "disable_priors": true,
+    "threshold_policy": "fixed_05"
+  }
+}

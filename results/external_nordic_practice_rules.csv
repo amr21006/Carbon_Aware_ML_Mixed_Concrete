@@ -1,0 +1,5 @@
+rule,top_10pct_capture,top_20pct_capture
+Unordered review (expected),0.1,0.2
+Lowest declared strength first,0.2692307692307692,0.3076923076923077
+Highest declared strength first,0.0,0.23076923076923078
+Arrival order (oldest first),0.0,0.038461538461538464

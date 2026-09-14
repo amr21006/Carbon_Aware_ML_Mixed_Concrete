@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-07-03T10:09:22.057676+00:00",
+  "runtime_seconds": 13.914,
+  "predictions": "results\\concrete_epd_v5_acrm_single_model_predictions.csv",
+  "score_column": "acrm_probability",
+  "output_tag": "acrm",
+  "splits": [
+    "temporal_latest20"
+  ],
+  "review_fractions": [
+    0.1,
+    0.2
+  ],
+  "bootstrap_repeats": 1000,
+  "seed": 42,
+  "interpretation": "Prediction metrics are bootstrapped over split-level out-of-sample rows. Opportunity metrics are bootstrapped over the flagged review list and estimate uncertainty in the observed opportunity summary, not guaranteed substitution feasibility.",
+  "outputs": [
+    "results/concrete_epd_v5_acrm_uncertainty_analysis.csv",
+    "results/concrete_epd_v5_acrm_decision_efficiency_summary.csv"
+  ]
+}

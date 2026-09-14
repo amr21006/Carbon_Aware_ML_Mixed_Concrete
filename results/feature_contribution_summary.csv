@@ -1,0 +1,4 @@
+split,auc_base,auc_acrm,auc_gain,ap_base,ap_acrm,ap_gain,cap20_base,cap20_acrm,cap20_gain
+group_company,0.955,0.9588,0.0039,0.8131,0.8265,0.0134,0.8451,0.8779,0.0327
+group_epd_source,0.954,0.9581,0.0041,0.801,0.8069,0.0059,0.8838,0.8958,0.012
+temporal_latest20,0.9634,0.964,0.0006,0.802,0.8049,0.0029,0.9273,0.9347,0.0074

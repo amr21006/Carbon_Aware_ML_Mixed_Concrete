@@ -1,0 +1,55 @@
+metric_family,split,metric,model_value,leader_algorithm,leader_value,delta_vs_leader,wins_metric
+classification,group_company,roc_auc,0.957552606268479,CARM-Boost fixed single model,0.954266718233956,0.00328588803452301,True
+classification,group_company,average_precision,0.8261585507246609,CARM-Boost fixed single model,0.8018715595176092,0.02428699120705169,True
+classification,group_company,accuracy,0.9487022900763359,Pareto-CARM thresholded single model,0.9508396946564884,-0.0021374045801525465,False
+classification,group_company,balanced_accuracy,0.8324273435551914,Complement Naive Bayes,0.8459004004946389,-0.013473056939447448,False
+classification,group_company,f1,0.7534246575342466,Pareto-CARM thresholded single model,0.7556904400606981,-0.0022657825264514875,False
+classification,group_company,precision,0.8424507658643327,Pareto-CARM thresholded single model,0.8819362455726092,-0.03948547970827654,False
+classification,group_company,recall,0.6814159292035398,Complement Naive Bayes,0.8486725663716814,-0.16725663716814165,False
+classification,group_company,specificity,0.983438757906843,Random Forest,0.998734905117884,-0.015296147211041,False
+classification,group_epd_source,roc_auc,0.9585994074037645,CARM-Boost fixed single model,0.9524182106544375,0.006181196749326934,True
+classification,group_epd_source,average_precision,0.8093644929680536,Domain-feature LightGBM single model,0.7965073129609178,0.01285718000713576,True
+classification,group_epd_source,accuracy,0.9440314822912111,Domain-feature LightGBM single model,0.940533449934412,0.00349803235679913,True
+classification,group_epd_source,balanced_accuracy,0.8331760453422181,CARM-Boost fixed single model,0.8608628299543873,-0.027686784612169224,False
+classification,group_epd_source,f1,0.7293868921775899,Domain-feature LightGBM single model,0.7154811715481172,0.013905720629472706,True
+classification,group_epd_source,precision,0.7718120805369127,Domain-feature LightGBM single model,0.7483588621444202,0.023453218392492592,True
+classification,group_epd_source,recall,0.6913827655310621,CARM-Boost fixed single model,0.8076152304609219,-0.11623246492985972,False
+classification,group_epd_source,specificity,0.9749693251533742,Pareto-CARM thresholded single model,0.9720245398773006,0.0029447852760735582,True
+classification,temporal_latest20,roc_auc,0.9661264401338435,Domain-feature LightGBM single model,0.9653887390626372,0.0007377010712062981,True
+classification,temporal_latest20,average_precision,0.8099134643144936,Domain-feature LightGBM single model,0.8103168566768141,-0.00040339236232045383,False
+classification,temporal_latest20,accuracy,0.9550316751479905,LightGBM GPU,0.9548239692595284,0.00020770588846208415,True
+classification,temporal_latest20,balanced_accuracy,0.8535711911214956,Linear SVM SGD,0.8988977294758056,-0.04532653835431,False
+classification,temporal_latest20,f1,0.7328809376927823,LightGBM GPU,0.7326367547633682,0.00024418292941408293,True
+classification,temporal_latest20,precision,0.7342398022249691,Random Forest,0.7421052631578947,-0.007865460932925616,False
+classification,temporal_latest20,recall,0.7315270935960592,CARM_Boost_E temporal recall candidate,0.9125615763546798,-0.18103448275862066,False
+classification,temporal_latest20,specificity,0.975615288646932,Random Forest,0.9944425541567428,-0.01882726550981073,False
+operational_topk,group_company,roc_auc,0.957552606268479,CARM-Boost fixed single model,0.954266718233956,0.00328588803452301,True
+operational_topk,group_company,average_precision,0.8261585507246609,CARM-Boost fixed single model,0.8018715595176092,0.02428699120705169,True
+operational_topk,group_company,top_5pct_precision,0.9573170731707317,Domain-feature LightGBM single model,0.9390243902439024,0.018292682926829285,True
+operational_topk,group_company,top_5pct_recall_capture,0.4168141592920354,Domain-feature LightGBM single model,0.4088495575221239,0.007964601769911539,True
+operational_topk,group_company,top_10pct_precision,0.8036622583926755,CARM-Boost fixed single model,0.7881873727087576,0.01547488568391786,True
+operational_topk,group_company,top_10pct_recall_capture,0.6991150442477876,CARM-Boost fixed single model,0.6849557522123894,0.01415929203539823,True
+operational_topk,group_company,top_20pct_precision,0.5012722646310432,XGBoost GPU SOTA baseline,0.4931297709923664,0.008142493638676862,True
+operational_topk,group_company,top_20pct_recall_capture,0.8716814159292036,XGBoost GPU SOTA baseline,0.8575221238938053,0.01415929203539823,True
+operational_topk,group_company,top_30pct_precision,0.3687245590230665,XGBoost GPU SOTA baseline,0.3704206241519674,-0.0016960651289009143,False
+operational_topk,group_company,top_30pct_recall_capture,0.9619469026548673,XGBoost GPU SOTA baseline,0.9663716814159292,-0.004424778761061954,False
+operational_topk,group_epd_source,roc_auc,0.9585994074037645,XGBoost GPU SOTA baseline,0.9524206695599788,0.006178737843785642,True
+operational_topk,group_epd_source,average_precision,0.8093644929680536,Domain-feature LightGBM single model,0.7937708180901538,0.015593674877899755,True
+operational_topk,group_epd_source,top_5pct_precision,0.9170305676855895,XGBoost GPU SOTA baseline,0.9301310043668122,-0.013100436681222627,False
+operational_topk,group_epd_source,top_5pct_recall_capture,0.42084168336673344,XGBoost GPU SOTA baseline,0.4268537074148296,-0.006012024048096143,False
+operational_topk,group_epd_source,top_10pct_precision,0.7620087336244541,XGBoost GPU SOTA baseline,0.7483588621444202,0.013649871480033937,True
+operational_topk,group_epd_source,top_10pct_recall_capture,0.6993987975951904,XGBoost GPU SOTA baseline,0.685370741482966,0.014028056112224463,True
+operational_topk,group_epd_source,top_20pct_precision,0.48743169398907105,CARM-Boost fixed single model,0.4819672131147541,0.005464480874316946,True
+operational_topk,group_epd_source,top_20pct_recall_capture,0.8937875751503006,CARM-Boost fixed single model,0.8837675350701403,0.01002004008016033,True
+operational_topk,group_epd_source,top_30pct_precision,0.3481427530954115,XGBoost GPU SOTA baseline,0.3462099125364432,0.0019328405589683073,True
+operational_topk,group_epd_source,top_30pct_recall_capture,0.9579158316633266,XGBoost GPU SOTA baseline,0.9519038076152304,0.006012024048096198,True
+operational_topk,temporal_latest20,roc_auc,0.9661264401338435,Domain-feature LightGBM single model,0.9650455540712606,0.001080886062582942,True
+operational_topk,temporal_latest20,average_precision,0.8099134643144936,Domain-feature LightGBM single model,0.8102209762336766,-0.00030751191918299003,False
+operational_topk,temporal_latest20,top_5pct_precision,0.8900414937759336,Domain-feature LightGBM single model,0.8879668049792531,0.0020746887966804906,True
+operational_topk,temporal_latest20,top_5pct_recall_capture,0.5283251231527094,Domain-feature LightGBM single model,0.5270935960591133,0.0012315270935960854,True
+operational_topk,temporal_latest20,top_10pct_precision,0.6625129802699896,Domain-feature LightGBM single model,0.6687435098650052,-0.006230529595015577,False
+operational_topk,temporal_latest20,top_10pct_recall_capture,0.7857142857142857,Domain-feature LightGBM single model,0.7931034482758621,-0.007389162561576401,False
+operational_topk,temporal_latest20,top_20pct_precision,0.39667705088265837,Domain-feature LightGBM single model,0.3925233644859813,0.00415368639667707,True
+operational_topk,temporal_latest20,top_20pct_recall_capture,0.9408866995073891,Domain-feature LightGBM single model,0.9310344827586208,0.00985221674876835,True
+operational_topk,temporal_latest20,top_30pct_precision,0.2720664589823468,Domain-feature LightGBM single model,0.2706818968501212,0.001384562132225653,True
+operational_topk,temporal_latest20,top_30pct_recall_capture,0.9679802955665024,Domain-feature LightGBM single model,0.9630541871921182,0.0049261083743842304,True

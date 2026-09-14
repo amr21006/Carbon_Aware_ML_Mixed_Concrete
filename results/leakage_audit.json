@@ -1,0 +1,40 @@
+{
+  "excluded_outcome_columns": [
+    "A1 GWP",
+    "A2 GWP",
+    "A3 GWP",
+    "A1 ODP",
+    "A2 ODP",
+    "A3 ODP",
+    "A1-A3 Acidication Potential (kg SO2-eq)",
+    "A1-A3 Eutrophication Potential (kg N-eq)",
+    "A1-A3 Photochemical Ozone Creation Potential (kg O3-eq)",
+    "A1-A3 Abiotic Depletion, non-fossil (kg Sb-eq)",
+    "A1-A3 Abiotic Depletion, fossil (MJ)",
+    "Total Waste Disposed (kg)",
+    "A1 Hazardous Waste Disposed (kg)",
+    "A2 Hazardous Waste Disposed (kg)",
+    "A3 Hazardous Waste Disposed (kg)",
+    "A1-A3 Hazardous Waste Disposed (kg)",
+    "A1 Non-Hazardous Waste Disposed (kg)",
+    "A2 Non-Hazardous Waste Disposed (kg)",
+    "A3 Non-Hazardous Waste Disposed (kg)",
+    "A1-A3 Non-Hazardous Waste Disposed (kg)",
+    "A1-A3 Consumption of Freshwater (m3)",
+    "A1 Consumption of Freshwater",
+    "A2 Consumption of Freshwater",
+    "A3 Consumption of Freshwater",
+    "gwp_per_ksi"
+  ],
+  "feature_sets": [
+    {
+      "name": "metadata_only",
+      "include_lci_sources": false
+    },
+    {
+      "name": "metadata_plus_lci_sources",
+      "include_lci_sources": true
+    }
+  ],
+  "target": "top decile of A1-A3 GWP per ksi of compressive strength"
+}

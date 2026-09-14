@@ -1,0 +1,2 @@
+algorithm,family,split,n_train,n_test,test_positive_rate,threshold,feature_count,fit_seconds,roc_auc,average_precision,accuracy,balanced_accuracy,f1,precision,recall,specificity,brier_score
+CPRM fold-clean carbon-prior single model,custom single learner with fold-clean carbon priors,group_company,37092,9825,0.11501272264631043,0.6431838003363037,16203,213.284,0.9576179474522537,0.8252396381742124,0.9492111959287531,0.8180858697145649,0.7457972491085074,0.8787515006002401,0.647787610619469,0.9883841288096608,0.04216122824252681

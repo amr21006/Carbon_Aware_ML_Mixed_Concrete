@@ -1,0 +1,16 @@
+item,value
+csv_path,data/raw/concrete_epd_mendeley_v5.csv
+raw_rows,47413
+model_rows_before_trim,47385
+model_rows_after_trim,46917
+unique_companies,83
+unique_plants,640
+unique_epd_source_links,82
+issue_year_min,2021
+issue_year_max,2025
+target_gwp_min,6.5
+target_gwp_median,342.0
+target_gwp_max_after_trim,707.0
+gwp_per_ksi_q90,124.0
+lci_source_column_count,50
+outcome_columns_excluded_count,25

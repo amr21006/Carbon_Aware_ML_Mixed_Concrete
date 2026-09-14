@@ -1,0 +1,13 @@
+split,strategy,information_needed,review_effort,capture_at_20pct
+Temporal,Complete manual review (every declaration opened),Full declaration,100%,1.0
+Temporal,Perfect ordering at a 20% budget (upper bound),Outcome known,20%,1.0
+Temporal,Best pre-award rule (Lowest declared strength first),Pre-award metadata,20%,0.6379
+Temporal,ACRM (proposed),Pre-award metadata,20%,0.9409
+Unseen company,Complete manual review (every declaration opened),Full declaration,100%,1.0
+Unseen company,Perfect ordering at a 20% budget (upper bound),Outcome known,20%,1.0
+Unseen company,Best pre-award rule (Lowest declared strength first),Pre-award metadata,20%,0.7487
+Unseen company,ACRM (proposed),Pre-award metadata,20%,0.8717
+Unseen EPD source,Complete manual review (every declaration opened),Full declaration,100%,1.0
+Unseen EPD source,Perfect ordering at a 20% budget (upper bound),Outcome known,20%,1.0
+Unseen EPD source,Best pre-award rule (Lowest declared strength first),Pre-award metadata,20%,0.7054
+Unseen EPD source,ACRM (proposed),Pre-award metadata,20%,0.8938

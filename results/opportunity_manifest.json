@@ -1,0 +1,33 @@
+{
+  "analysis": "comparable-group opportunity with clustered uncertainty",
+  "predictions_source": "results/concrete_epd_v5_acrm_single_model_predictions.csv",
+  "min_alternatives": 5,
+  "bootstrap_repeats": 1000,
+  "group_hierarchy": [
+    "strict_group",
+    "national_spec_group",
+    "regional_strength_group"
+  ],
+  "note": "Point estimates reproduce the reported screen; only the resampling scheme changes.",
+  "created_utc": "2026-09-12T07:40:22.933291+00:00",
+  "acrm_parameters": {
+    "splits": "group_company,group_epd_source,temporal_latest20",
+    "learner": "lgbm",
+    "n_estimators": 650,
+    "max_depth": -1,
+    "num_leaves": 63,
+    "min_child_samples": 20,
+    "learning_rate": 0.028,
+    "min_child_weight": 2.0,
+    "subsample": 0.9,
+    "colsample_bytree": 0.86,
+    "reg_alpha": 0.05,
+    "reg_lambda": 2.0,
+    "gamma": 0.02,
+    "max_text_features": 14000,
+    "prior_smoothing": 40.0,
+    "prior_folds": 5,
+    "disable_priors": true,
+    "threshold_policy": "fixed_05"
+  }
+}

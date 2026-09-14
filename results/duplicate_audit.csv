@@ -1,0 +1,4 @@
+key,columns,n_duplicate_rows,n_unique_keys,n_rows
+company_plant_label_strength_gwp,Company; Plant; Mixture Label; strength_psi; A1-A3 Global Warming Potential (kg CO2-eq),352,46565,46917
+company_plant_label,Company; Plant; Mixture Label,1162,45755,46917
+company_plant_label_issue_date,Company; Plant; Mixture Label; EPD Date of Issue,1008,45909,46917

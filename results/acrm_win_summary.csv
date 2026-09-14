@@ -1,0 +1,7 @@
+metric_family,split,wins,metrics_compared
+classification,group_company,2,8
+classification,group_epd_source,6,8
+classification,temporal_latest20,2,8
+operational_topk,group_company,8,10
+operational_topk,group_epd_source,8,10
+operational_topk,temporal_latest20,7,10

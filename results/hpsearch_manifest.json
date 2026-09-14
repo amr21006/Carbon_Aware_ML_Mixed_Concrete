@@ -1,0 +1,88 @@
+{
+  "analysis": "grouped inner-CV randomised hyperparameter search",
+  "search_space": {
+    "n_estimators": [
+      400,
+      650,
+      900
+    ],
+    "num_leaves": [
+      31,
+      63,
+      127
+    ],
+    "learning_rate": [
+      0.015,
+      0.028,
+      0.05
+    ],
+    "min_child_samples": [
+      10,
+      20,
+      40
+    ],
+    "subsample": [
+      0.7,
+      0.8,
+      0.9
+    ],
+    "colsample_bytree": [
+      0.6,
+      0.75,
+      0.86
+    ],
+    "reg_alpha": [
+      0.0,
+      0.05,
+      0.5
+    ],
+    "reg_lambda": [
+      0.5,
+      2.0,
+      8.0
+    ],
+    "max_text_features": [
+      8000,
+      14000,
+      20000
+    ]
+  },
+  "n_configurations": 15,
+  "inner_folds": 3,
+  "inner_grouping": "producer company",
+  "scoring": "average precision",
+  "outer_training_partition": "temporal split, earliest 80% of issue dates",
+  "selected_configuration": {
+    "n_estimators": 650,
+    "num_leaves": 63,
+    "learning_rate": 0.028,
+    "min_child_samples": 20,
+    "subsample": 0.9,
+    "colsample_bytree": 0.86,
+    "reg_alpha": 0.05,
+    "reg_lambda": 2.0,
+    "max_text_features": 14000
+  },
+  "note": "Selection used training records only; no holdout record entered the search.",
+  "created_utc": "2026-09-12T09:27:25.546763+00:00",
+  "acrm_parameters": {
+    "splits": "group_company,group_epd_source,temporal_latest20",
+    "learner": "lgbm",
+    "n_estimators": 650,
+    "max_depth": -1,
+    "num_leaves": 63,
+    "min_child_samples": 20,
+    "learning_rate": 0.028,
+    "min_child_weight": 2.0,
+    "subsample": 0.9,
+    "colsample_bytree": 0.86,
+    "reg_alpha": 0.05,
+    "reg_lambda": 2.0,
+    "gamma": 0.02,
+    "max_text_features": 14000,
+    "prior_smoothing": 40.0,
+    "prior_folds": 5,
+    "disable_priors": true,
+    "threshold_policy": "fixed_05"
+  }
+}

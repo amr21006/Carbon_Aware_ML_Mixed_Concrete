@@ -1,0 +1,53 @@
+{
+  "created_utc": "2026-07-03T08:59:55.415971+00:00",
+  "runtime_seconds": 223.184,
+  "algorithm": "CPRM fold-clean carbon-prior single model",
+  "not_a_stacked_or_voting_ensemble": true,
+  "single_estimator": "LGBMClassifier, device_type=gpu",
+  "dataset_version": 5,
+  "csv_path": "data/raw/concrete_epd_mendeley_v5.csv",
+  "target": "top decile of A1-A3 GWP per ksi of compressive strength",
+  "target_quantile": 0.9,
+  "splits": [
+    "group_company"
+  ],
+  "dataset_rows_after_trim": 46917,
+  "gpu": {
+    "nvidia_smi": "Quadro T1000 with Max-Q Design, 595.95, 4096 MiB"
+  },
+  "parameters": {
+    "splits": "group_company",
+    "learner": "lgbm",
+    "n_estimators": 650,
+    "max_depth": -1,
+    "num_leaves": 63,
+    "min_child_samples": 20,
+    "learning_rate": 0.028,
+    "min_child_weight": 2.0,
+    "subsample": 0.9,
+    "colsample_bytree": 0.86,
+    "reg_alpha": 0.05,
+    "reg_lambda": 2.0,
+    "gamma": 0.02,
+    "max_text_features": 14000,
+    "prior_smoothing": 40.0,
+    "prior_folds": 5,
+    "disable_priors": true,
+    "threshold_policy": "balanced_f1"
+  },
+  "diagnostics": [
+    {
+      "split": "group_company",
+      "feature_count_train": 16203,
+      "prior_feature_count": 0,
+      "threshold_policy": "balanced_f1"
+    }
+  ],
+  "outputs": [
+    "results/concrete_epd_v5_cprm_single_model_results.csv",
+    "results/concrete_epd_v5_cprm_single_model_operational_metrics.csv",
+    "results/concrete_epd_v5_cprm_single_model_predictions.csv",
+    "results/concrete_epd_v5_cprm_single_model_vs_leaders.csv"
+  ],
+  "reviewer_guardrail": "Historical prior features are generated with out-of-fold encodings for training rows and with outer-training-fold-only mappings for test rows."
+}

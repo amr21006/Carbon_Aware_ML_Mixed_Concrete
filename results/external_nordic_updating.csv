@@ -1,0 +1,15 @@
+analysis,model,roc_auc,average_precision,top_20pct_capture,spearman,auc_sd_over_seeds
+as-is,"U.S. classifier, no updating",0.6187031994554119,0.2580144860060594,0.38461538461538464,0.30282103781822195,
+as-is,"U.S. regression score, no updating",0.6221068754254594,0.256917609863853,0.4230769230769231,0.35748662220612193,
+"as-is, DK only (n=134, positives=16)",U.S. classifier,0.5929555084745763,0.30892299704635773,0.4375,0.14225749503148902,
+"as-is, DK only (n=134, positives=16)",U.S. regression score,0.6085805084745763,0.30976419611390177,0.4375,0.20956145498243287,
+"as-is, NO only (n=89, positives=4)",U.S. classifier,0.6176470588235294,0.1736920546818789,0.25,0.5216547432226946,
+"as-is, NO only (n=89, positives=4)",U.S. regression score,0.5558823529411765,0.1254495650719304,0.25,0.5696530662771865,
+1. stacking (leave-producers-out CV),"local logistic, market features only",0.7312797821647379,0.19693188200472214,0.5,0.5331264166094611,0.0
+1. stacking (leave-producers-out CV),local logistic + U.S. classifier score,0.7357045609257999,0.20117057253397821,0.5,0.5191846744424687,0.0
+1. stacking (leave-producers-out CV),local logistic + U.S. regression score,0.7285568413886999,0.19648591538001572,0.46153846153846156,0.5297120047750887,0.0
+1. stacking (leave-producers-out CV),local logistic + both U.S. scores,0.7368958475153166,0.2085125631730566,0.46153846153846156,0.5135361870153902,0.0
+1. stacking (leave-producers-out CV),"U.S. scores only, local logistic",0.5279101429543908,0.1398364626671727,0.34615384615384615,0.0783896736237273,0.0
+"2. joint U.S.+external training (leave-producers-out CV, 1 seed)","gradient boosting, external weight x1",0.6967324710687542,0.2277108219296321,0.34615384615384615,0.40885490287975446,
+"3. portable predictor set, U.S.-only",gradient boosting on shared predictors,0.6225323349217156,0.2621325634921117,0.38461538461538464,0.34273267508184363,
+"3. portable predictor set, U.S.-only",regression on shared predictors,0.7010721579305651,0.24894883057163938,0.4230769230769231,0.48434732638436306,

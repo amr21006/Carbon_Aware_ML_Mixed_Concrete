@@ -1,0 +1,19 @@
+metric_family,split,metric,cprm_value,leader_algorithm,leader_value,delta_vs_leader,wins_metric
+classification,group_company,roc_auc,0.9576179474522537,CARM-Boost fixed single model,0.954266718233956,0.003351229218297669,True
+classification,group_company,average_precision,0.8252396381742124,CARM-Boost fixed single model,0.8018715595176092,0.023368078656603175,True
+classification,group_company,accuracy,0.9492111959287531,Pareto-CARM thresholded single model,0.9508396946564884,-0.0016284987277352947,False
+classification,group_company,balanced_accuracy,0.8180858697145649,Complement Naive Bayes,0.8459004004946389,-0.02781453078007401,False
+classification,group_company,f1,0.7457972491085074,Pareto-CARM thresholded single model,0.7556904400606981,-0.009893190952190656,False
+classification,group_company,precision,0.8787515006002401,Pareto-CARM thresholded single model,0.8819362455726092,-0.0031847449723690913,False
+classification,group_company,recall,0.647787610619469,Complement Naive Bayes,0.8486725663716814,-0.20088495575221244,False
+classification,group_company,specificity,0.9883841288096608,Random Forest,0.998734905117884,-0.01035077630822323,False
+operational_topk,group_company,roc_auc,0.9576179474522537,CARM-Boost fixed single model,0.954266718233956,0.003351229218297669,True
+operational_topk,group_company,average_precision,0.8252396381742124,CARM-Boost fixed single model,0.8018715595176092,0.023368078656603175,True
+operational_topk,group_company,top_5pct_precision,0.9491869918699187,Domain-feature LightGBM single model,0.9390243902439024,0.010162601626016343,True
+operational_topk,group_company,top_5pct_recall_capture,0.41327433628318583,Domain-feature LightGBM single model,0.4088495575221239,0.004424778761061954,True
+operational_topk,group_company,top_10pct_precision,0.8097660223804679,CARM-Boost fixed single model,0.7881873727087576,0.021578649671710304,True
+operational_topk,group_company,top_10pct_recall_capture,0.7044247787610619,CARM-Boost fixed single model,0.6849557522123894,0.019469026548672552,True
+operational_topk,group_company,top_20pct_precision,0.5033078880407125,XGBoost GPU SOTA baseline,0.4931297709923664,0.010178117048346091,True
+operational_topk,group_company,top_20pct_recall_capture,0.8752212389380531,XGBoost GPU SOTA baseline,0.8575221238938053,0.017699115044247815,True
+operational_topk,group_company,top_30pct_precision,0.36635006784260515,XGBoost GPU SOTA baseline,0.3704206241519674,-0.004070556309362261,False
+operational_topk,group_company,top_30pct_recall_capture,0.9557522123893806,XGBoost GPU SOTA baseline,0.9663716814159292,-0.010619469026548645,False

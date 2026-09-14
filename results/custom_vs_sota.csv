@@ -1,0 +1,3 @@
+split,custom_algorithm,custom_auc,custom_accuracy,custom_balanced_accuracy,best_sota_algorithm,best_sota_auc,best_sota_accuracy,best_sota_balanced_accuracy,auc_delta_vs_best_sota,beats_best_sota_auc
+group_company,CARM-Boost single model,0.9371114380958774,0.8893034825870647,0.8560220285503924,XGBoost GPU,0.9399811146120736,0.9228855721393034,0.8275915957822634,-0.0028696765161961846,False
+temporal_latest20,CARM-Boost single model,0.9556678970841785,0.9300115577244125,0.8629084242528002,XGBoost GPU,0.9565980598659078,0.9260305637601132,0.8593341175839893,-0.0009301627817293046,False

@@ -1,0 +1,93 @@
+{
+ "source": "EPD-Norge digital registry, class Bygg / Ferdig betong, retrieved 2026-09-12",
+ "endpoint": "https://epdnorway.lca-data.com/resource/processes",
+ "records_retrieved": 277,
+ "records_usable": 1565,
+ "usable_rule": "declared unit 1 m3, GWP A1 to A3 present, strength class parsed",
+ "strength_conversion": "cylinder MPa x 145.038 = psi; EN 206 C xx/yy -> xx; Norwegian B xx -> xx",
+ "gwp_indicator": "GWP-total (EN 15804+A2) or GWP (EN 15804+A1), modules A1+A2+A3",
+ "bridge": [
+  [
+   "CEM\\s?II\\s?/\\s?[AB]\\s?-\\s?V\\b|flyveaske|flygeaske|flyaske|flyveask",
+   "fly ash"
+  ],
+  [
+   "CEM\\s?II\\s?/\\s?[AB]\\s?-\\s?S\\b|CEM\\s?III|slagg\\b|slagge",
+   "slag"
+  ],
+  [
+   "CEM\\s?II\\s?/\\s?[AB]\\s?-\\s?L{1,2}\\b|kalkstein|kalksten|kalkfiller",
+   "type il limestone cement"
+  ],
+  [
+   "CEM\\s?II\\s?/\\s?[AB]\\s?-\\s?M\\b|futurecem",
+   "blended cement limestone"
+  ],
+  [
+   "CEM\\s?II\\s?/\\s?[AB]\\s?-\\s?D\\b|mikrosilika|silika\\b|silikast",
+   "silica fume"
+  ],
+  [
+   "\\bCEM\\s?I\\b(?!I)|\\bCEM\\s?l\\b(?!l)",
+   "portland cement type i cement"
+  ],
+  [
+   "52[,.]5\\s?R\\b|high early|hurtig",
+   "high early strength"
+  ],
+  [
+   "\\bSCC\\b|vibfri|selvkomprimerende|sj\u00e4lvkompakterande|self[- ]compacting",
+   "self consolidating scc"
+  ],
+  [
+   "spr[\u00f8o]ytebetong|sprutbetong|shotcrete|sprayed",
+   "shotcrete"
+  ],
+  [
+   "\\bXF[1-4]\\b|frost|luftinnhold|air content|luftporer",
+   "air entrained freeze thaw"
+  ],
+  [
+   "\\bXS[1-3]\\b|\\bXD[1-3]\\b|\\bXA[1-3]\\b|aggressive|marine|chloride",
+   "marine chloride sulfate exposure"
+  ],
+  [
+   "\\bfiber|\\bfibre|st\u00e5lfiber|polypropylenfiber",
+   "fiber"
+  ],
+  [
+   "resirkulert|genbrug|\u00e5tervunn",
+   "recycled"
+  ],
+  [
+   "lettbetong|letbeton|l\u00e4ttbetong",
+   "lightweight"
+  ],
+  [
+   "lavkarbon|low[- ]carbon|klimabeton|eco\\b|milj\u00f8sement|milj\u00f6sement",
+   "low carbon"
+  ],
+  [
+   "GGBFS|GGBS|blast furnace slag",
+   "slag"
+  ],
+  [
+   "GP cement|general purpose cement|\\bGP\\b",
+   "portland cement type i cement"
+  ],
+  [
+   "ECOPact|Greenstar|Green Star|ViroDecs|Envisia|lower carbon|climate act",
+   "low carbon"
+  ],
+  [
+   "post[- ]tension|precast|prestress|structural",
+   "structural"
+  ],
+  [
+   "footpath|kerb|curb|driveway|paving",
+   "hardscape paving"
+  ]
+ ],
+ "bootstrap_reps": 1000,
+ "seed": 42
+}

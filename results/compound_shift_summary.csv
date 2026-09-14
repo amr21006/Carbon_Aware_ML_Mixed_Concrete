@@ -1,0 +1,2 @@
+design,replicates,roc_auc_mean,roc_auc_sd,roc_auc_min,roc_auc_max,capture20_mean,capture20_sd,prevalence_mean,n_test_mean
+company_and_time,5,0.9426,0.0283,0.9014,0.9798,0.8593,0.1247,0.1053,2367.6
