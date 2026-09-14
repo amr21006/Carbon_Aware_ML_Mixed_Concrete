@@ -1,0 +1,9 @@
+# Versions used to produce the released results.
+pandas==2.3.3
+numpy>=2.0
+scipy>=1.14
+scikit-learn==1.8.0
+lightgbm==4.6.0
+xgboost==3.2.0
+catboost>=1.2
+matplotlib>=3.9
