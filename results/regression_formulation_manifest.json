@@ -1,0 +1,27 @@
+{
+  "analysis": "regression on GWP with exact division by observed strength",
+  "tau_kg_co2e_per_ksi": 124.0,
+  "probability": "normal residual model in log space, sigma from held-in folds",
+  "selection": "company-grouped 3-fold CV inside the temporal training partition",
+  "created_utc": "2026-09-12T12:54:45.305323+00:00",
+  "acrm_parameters": {
+    "splits": "group_company,group_epd_source,temporal_latest20",
+    "learner": "lgbm",
+    "n_estimators": 650,
+    "max_depth": -1,
+    "num_leaves": 63,
+    "min_child_samples": 20,
+    "learning_rate": 0.028,
+    "min_child_weight": 2.0,
+    "subsample": 0.9,
+    "colsample_bytree": 0.86,
+    "reg_alpha": 0.05,
+    "reg_lambda": 2.0,
+    "gamma": 0.02,
+    "max_text_features": 14000,
+    "prior_smoothing": 40.0,
+    "prior_folds": 5,
+    "disable_priors": true,
+    "threshold_policy": "fixed_05"
+  }
+}

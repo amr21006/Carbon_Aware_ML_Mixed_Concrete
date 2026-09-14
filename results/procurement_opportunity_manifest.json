@@ -1,0 +1,21 @@
+{
+  "dataset_version": 5,
+  "csv_path": "data/raw/concrete_epd_mendeley_v5.csv",
+  "predictions": "results\\concrete_epd_v5_acrm_single_model_predictions.csv",
+  "score_column": "acrm_probability",
+  "model_label": "ACRM application-aware single model",
+  "split": "temporal_latest20",
+  "review_fraction": 0.1,
+  "min_alternatives_per_reference_group": 5,
+  "target": "top decile of A1-A3 GWP per ksi of compressive strength",
+  "target_quantile": 0.9,
+  "model_rows_after_trim": 46917,
+  "interpretation": "Retrospective procurement opportunity screen, not guaranteed substitution feasibility.",
+  "created_utc": "2026-07-03T10:09:06.622327+00:00",
+  "runtime_seconds": 3.171,
+  "outputs": [
+    "results/concrete_epd_v5_procurement_opportunity_acrm_temporal_latest20_top10_details.csv",
+    "results/concrete_epd_v5_procurement_opportunity_acrm_temporal_latest20_top10_summary.csv",
+    "results/concrete_epd_v5_procurement_opportunity_acrm_temporal_latest20_top10_by_group.csv"
+  ]
+}

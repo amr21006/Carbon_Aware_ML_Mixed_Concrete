@@ -1,0 +1,58 @@
+{
+ "analysis": "JCCE revision validation batch",
+ "dataset_version": 5,
+ "csv_path": "data/raw/concrete_epd_mendeley_v5.csv",
+ "rows": 46917,
+ "target_quantile": 0.9,
+ "seeds": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "tasks_completed": [
+  "baseline",
+  "stability",
+  "ablations",
+  "threshold",
+  "targets",
+  "duplicates",
+  "operator"
+ ],
+ "runtime_seconds": 8015.7,
+ "clusters": {
+  "companies": 83,
+  "company_plants": 663,
+  "epd_source_links": 82,
+  "programme_operators": 2,
+  "regions": 9
+ },
+ "created_utc": "2026-09-12T08:22:51.939076+00:00",
+ "acrm_parameters": {
+  "splits": "group_company,group_epd_source,temporal_latest20",
+  "learner": "lgbm",
+  "n_estimators": 650,
+  "max_depth": -1,
+  "num_leaves": 63,
+  "min_child_samples": 20,
+  "learning_rate": 0.028,
+  "min_child_weight": 2.0,
+  "subsample": 0.9,
+  "colsample_bytree": 0.86,
+  "reg_alpha": 0.05,
+  "reg_lambda": 2.0,
+  "gamma": 0.02,
+  "max_text_features": 14000,
+  "prior_smoothing": 40.0,
+  "prior_folds": 5,
+  "disable_priors": true,
+  "threshold_policy": "fixed_05"
+ },
+ "note": "The baseline task was re-exported from the reported model's stored out-of-sample scores so that every downstream analysis describes the same booster as the main results tables; the other tasks refit the pipeline as described in the paper."
+}

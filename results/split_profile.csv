@@ -1,0 +1,5 @@
+split,n_train,n_test,test_prevalence,n_company_train,n_company_test,n_plant_test,n_source_test,company_overlap,source_overlap
+random_row,37533,9384,0.10049019607843138,83,83,639,82,83,82
+group_company,37092,9825,0.11501272264631043,66,17,61,20,0,6
+group_epd_source,42343,4574,0.10909488412767818,69,26,167,17,12,0
+temporal_latest20,37288,9629,0.08432859071554678,46,72,351,73,35,39

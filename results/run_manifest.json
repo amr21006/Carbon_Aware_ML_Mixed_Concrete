@@ -1,0 +1,30 @@
+{
+  "created_utc": "2026-07-02T20:33:19.832739+00:00",
+  "runtime_seconds": 452.304,
+  "dataset": {
+    "dataset_id": "r4jgxk2mhn",
+    "dataset_version": 2,
+    "file_name": "Compiled Concrete EPD Data Revised 11_06_2023.csv",
+    "file_id": "692c7d06-392f-41b0-b99f-a0356822d240",
+    "sha256": "1c6c05f3940fc0248e6940da04d35909b9296b7dcdde7c8eafeb97f9fbb9b84d",
+    "size_bytes": 64004673,
+    "api_url": "https://data.mendeley.com/public-api/datasets/r4jgxk2mhn/files?folder_id=root&version=2"
+  },
+  "gpu": {
+    "nvidia_smi": "Quadro T1000 with Max-Q Design, 595.95, 4096 MiB"
+  },
+  "model": "XGBClassifier, GPU hist, device=cuda",
+  "random_state": 42,
+  "main_target_quantile": 0.9,
+  "sensitivity_quantiles": [
+    0.75,
+    0.8,
+    0.85,
+    0.9,
+    0.95
+  ],
+  "source_links": {
+    "mendeley_dataset_page": "https://data.mendeley.com/datasets/r4jgxk2mhn/2",
+    "mendeley_file_api": "https://data.mendeley.com/public-api/datasets/r4jgxk2mhn/files?folder_id=root&version=2"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "created_utc": "2026-07-03T07:52:22.316659+00:00",
+  "runtime_seconds": 93.908,
+  "dataset_version": 5,
+  "csv_path": "data/raw/concrete_epd_mendeley_v5.csv",
+  "target": "top decile of A1-A3 GWP per ksi of compressive strength",
+  "target_quantile": 0.9,
+  "not_an_ensemble_of_algorithms": true,
+  "algorithm_option": "all",
+  "split_option": "temporal_latest20",
+  "query_definition": "U.S. region | 500-psi strength bin | curing days",
+  "dataset_rows_after_trim": 46917,
+  "outputs": [
+    "results/concrete_epd_v5_p20_ranker_results.csv"
+  ]
+}

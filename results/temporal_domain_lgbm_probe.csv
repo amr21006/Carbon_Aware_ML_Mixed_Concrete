@@ -1,0 +1,2 @@
+algorithm,split,threshold,roc_auc,average_precision,accuracy,balanced_accuracy,f1,precision,recall,specificity
+Domain-feature LightGBM single model,temporal_latest20,0.5,0.9647856162328596,0.8103612533441815,0.9554470869249143,0.8526799158142214,0.7340359578425294,0.7390761548064919,0.729064039408867,0.9762957922195759

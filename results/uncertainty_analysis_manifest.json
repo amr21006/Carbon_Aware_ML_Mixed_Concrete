@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-07-03T08:13:32.055537+00:00",
+  "runtime_seconds": 29.048,
+  "predictions": "results/concrete_epd_v5_domain_lgbm_predictions.csv",
+  "splits": [
+    "group_company",
+    "group_epd_source",
+    "temporal_latest20"
+  ],
+  "review_fractions": [
+    0.1,
+    0.2
+  ],
+  "bootstrap_repeats": 1000,
+  "seed": 42,
+  "interpretation": "Prediction metrics are bootstrapped over split-level out-of-sample rows. Opportunity metrics are bootstrapped over the flagged review list and estimate uncertainty in the observed opportunity summary, not guaranteed substitution feasibility.",
+  "outputs": [
+    "results/concrete_epd_v5_uncertainty_analysis.csv",
+    "results/concrete_epd_v5_decision_efficiency_summary.csv"
+  ]
+}

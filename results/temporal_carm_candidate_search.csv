@@ -1,0 +1,2 @@
+split,selected_candidate,threshold_from_inner_training,roc_auc,average_precision,accuracy,balanced_accuracy,f1,precision,recall,specificity
+temporal_latest20,CARM_Boost_E,0.2245029497477742,0.9610681978555757,0.7894468639551003,0.8811922317997716,0.8954324270567774,0.5643564356435643,0.4084895259095921,0.9125615763546798,0.878303277758875

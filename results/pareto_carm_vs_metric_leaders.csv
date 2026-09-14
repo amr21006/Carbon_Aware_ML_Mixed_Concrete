@@ -1,0 +1,25 @@
+split,metric,pareto_carm,leader_algorithm,leader_value,delta_vs_leader,wins_metric
+group_company,roc_auc,0.954266718233956,CARM-Boost fixed single model,0.954266718233956,0.0,False
+group_company,average_precision,0.8018715595176092,CARM-Boost fixed single model,0.8018715595176092,0.0,False
+group_company,accuracy,0.9508396946564884,CatBoost CPU SVD,0.9448346055979644,0.006005089058524038,True
+group_company,balanced_accuracy,0.8247805421689812,Complement Naive Bayes,0.8459004004946389,-0.02111985832565766,False
+group_company,f1,0.7556904400606981,CatBoost CPU SVD,0.747906976744186,0.007783463316512029,True
+group_company,precision,0.8819362455726092,HistGradientBoosting SVD,0.8303370786516854,0.05159916692092381,True
+group_company,recall,0.6610619469026549,Complement Naive Bayes,0.8486725663716814,-0.18761061946902657,False
+group_company,specificity,0.9884991374353076,Random Forest,0.998734905117884,-0.010235767682576391,False
+group_epd_source,roc_auc,0.9524182106544375,CARM-Boost fixed single model,0.9524182106544375,0.0,False
+group_epd_source,average_precision,0.7824349840628895,CARM-Boost fixed single model,0.7824349840628895,0.0,False
+group_epd_source,accuracy,0.939658941845212,CARM-Boost fixed single model,0.9024923480542196,0.03716659379099241,True
+group_epd_source,balanced_accuracy,0.8236876206400532,CARM-Boost fixed single model,0.8608628299543873,-0.03717520931433416,False
+group_epd_source,f1,0.7094736842105264,CARM-Boost fixed single model,0.6437699680511182,0.06570371615940818,True
+group_epd_source,precision,0.7472283813747228,CARM-Boost fixed single model,0.5351925630810093,0.21203581829371354,True
+group_epd_source,recall,0.6753507014028056,CARM-Boost fixed single model,0.8076152304609219,-0.13226452905811625,False
+group_epd_source,specificity,0.9720245398773006,CARM-Boost fixed single model,0.9141104294478528,0.05791411042944783,True
+temporal_latest20,roc_auc,0.960878447423836,LightGBM GPU,0.9642667182910756,-0.0033882708672395845,False
+temporal_latest20,average_precision,0.7904370308119277,LightGBM GPU,0.8099121874687535,-0.019475156656825754,False
+temporal_latest20,accuracy,0.9393498805691142,LightGBM GPU,0.9548239692595284,-0.015474088690414223,False
+temporal_latest20,balanced_accuracy,0.8807877024400355,Linear SVM SGD,0.8988977294758056,-0.018110027035770138,False
+temporal_latest20,f1,0.6926315789473684,LightGBM GPU,0.7326367547633682,-0.04000517581599983,False
+temporal_latest20,precision,0.6047794117647058,Random Forest,0.7421052631578947,-0.13732585139318887,False
+temporal_latest20,recall,0.8103448275862069,Linear SVM SGD,0.8768472906403941,-0.06650246305418728,False
+temporal_latest20,specificity,0.9512305772938642,Random Forest,0.9944425541567428,-0.04321197686287859,False

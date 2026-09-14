@@ -1,0 +1,7 @@
+application_family,flagged_count,flagged_true_high_carbon_count,median_current_gwp_per_ksi_true_high_carbon,median_relative_reduction_to_p25_true_high_carbon,share_true_high_carbon_with_10pct_opportunity
+other_or_unspecified,1423,469,141.66666666666666,0.37011494252873567,0.9275053304904051
+filler,398,261,256.0,0.2755905511811024,0.7704280155642024
+paving,42,20,152.83333333333331,0.279205069124424,0.75
+structural,27,8,138.0,0.3385016025641026,1.0
+hardscape,32,6,133.33333333333334,0.40493848749177086,1.0
+infrastructure,4,0,,,
